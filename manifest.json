@@ -1,0 +1,51 @@
+{
+    "name": "Djamgatech",
+    "short_name": "Djamgatech",
+    "icons": [
+        {
+            "src": "/img/icons/128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icons/144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icons/152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icons/192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icons/256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/img/icons/512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "https://djamgatech.web.app/index_android.html",
+    "display": "standalone",
+    "background_color": "#3E4EB8",
+    "theme_color": "#2F3BA2",
+    "lang": "",
+    "screenshots": [],
+    "orientation": "portrait",
+    "id": "Djamgatech",
+    "iarc_rating_id": "4",
+    "description": "Master certifications faster! AI-powered quizzes, flashcards &amp; adaptive learning for AWS, Azure, CISSP, CFA, PMP, Azure, GCP &amp; more. Level up your career with Djamgatech today! NEW! Flashcards &amp; Certification Quizzes Update!",
+    "categories": [
+        "education",
+        "games",
+        "productivity"
+      ]
+}

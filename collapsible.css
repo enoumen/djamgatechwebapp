@@ -1,0 +1,55 @@
+/* Collapsible - Base Styles */
+.collapsible {
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Alternating Colors - No two consecutive buttons will be the same */
+.collapsible:nth-child(5n+1) { background-color: #4c28a7; } /* Purple */
+.collapsible:nth-child(5n+2) { background-color: #dc3545; } /* Red */
+.collapsible:nth-child(5n+3) { background-color: #007bff; } /* Blue */
+.collapsible:nth-child(5n+4) { background-color: #fd7e14; } /* Orange */
+.collapsible:nth-child(5n+5) { background-color: #6f42c1; } /* Purple */
+
+/* Hover & Active States */
+.collapsible:hover {
+  background-color: #28a745 !important; /* Green */
+}
+
+.collapsible.active {
+  background-color: #28a745 !important; /* Green */
+}
+
+/* Plus/Minus Icons */
+.collapsible:after {
+  content: '\002B'; /* Plus sign */
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.collapsible.active:after {
+  content: "\2212"; /* Minus sign */
+}
+
+/* Content Panel */
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+/* Miscellaneous */
+* { box-sizing: border-box; }
+.mySlides1, .mySlides2 { display: none; }
+img { vertical-align: middle; }

@@ -1,0 +1,2595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-language" content="en">
+
+    <link rel="canonical" href="https://djamgatech.web.app" />
+    <link rel="preload" href="/Djamgatech512x512.webp" as="image">
+    <!-- Open Graph Tags (for Facebook/Twitter sharing) -->
+    <meta property="og:title" content="Professional Certification Quiz Platform - Djamgatech">
+    <meta property="og:description" content="Master 50+ career certifications including AWS, Mind Map, AI-Powered Mind Maps, CISSP, PMP, CPA, CFA, CPC, Google Cloud and Azure.">
+    <meta property="og:image" content="https://djamgatech.web.app/Djamgatech512x512.webp">
+    <meta property="og:url" content="https://djamgatech.web.app">
+    <!-- Structured Data (JSON-LD for Quizzes) -->
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Djamgatech Certification Quizzes",
+    "description": "AI-powered quiz platform for professional certifications.",
+    "applicationCategory": "EducationalApplication"
+    }
+    </script>
+    <!-- Add FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How do AI quizzes help with certification prep?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our quizzes adapt to your weak areas using machine learning"
+        }
+      }]
+    }
+    </script>
+    <title>Professional Certification Quiz Platform - Djamgatech</title>
+    <meta name="description" content="Master 50+ career certifications including AWS, CISSP, AI-Powered Mind Maps, PMP, CPA, CFA, CPC, Google Cloud and Azure. Practice with Djamgatech's AI-powered quizzes to ensure you're exam-ready.">
+    <meta name="keywords" content="certifications, AWS, CISSP, CFA, PMP, CPA, CPC, Mind Map, Google Cloud, Azure, Security, DevOps, Data Engineer, Machine Learning, AI quizzes, cloud certification, project management, healthcare certification, Quantum Computing, Automotive Security Cert">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="collapsible.css">
+    <!-- Favicon -->
+    <!-- Fix manifest.json 404 -->
+    <link rel="manifest" href="manifest.json"> <!-- Ensure file exists in root -->
+    <!-- Add alt text to logo -->
+    
+
+    <!-- Firebase SDK -->
+    <script>
+        import { initializeApp } from 'firebase/app';
+        import { getFirestore } from 'firebase/firestore'; 
+        // 50% smaller bundle size
+    </script>
+    <!--
+    <script defer src="/__/firebase/11.4.0/firebase-app-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-auth-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-database-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-firestore-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-functions-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-messaging-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-storage-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-analytics-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-remote-config-compat.js"></script>
+    <script defer src="/__/firebase/11.4.0/firebase-performance-compat.js"></script>
+    -->
+    <!--<script defer src="/__/firebase/init.js?useEmulator=true"></script>-->
+    <script>
+        if (location.hostname === "localhost") {
+    useEmulator("localhost", 5000); // Dev only
+    }
+    </script>
+    <!--
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0726877601059703"
+     crossorigin="anonymous"></script>
+    -->
+    <script>
+        window.addEventListener('scroll', () => {
+  import('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js');
+}, { once: true });
+    </script>
+     <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+   
+    <style>
+      body { 
+          background: #ECEFF1; 
+          color: rgba(0,0,0,0.87); 
+          font-family: Roboto, Helvetica, Arial, sans-serif; 
+          margin: 0; 
+          padding: 0; 
+          text-align: center;
+      }
+      .box {
+          background: white;
+          max-width: 800px;
+          margin: 20px auto;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      }
+      .box h3 {
+          margin-bottom: 10px;
+      }
+      #quiz-container, #concept-map, .chatbot-container {
+          width: 90%;
+          margin: auto;
+      }
+      @media screen and (max-width: 600px) {
+          html {
+              font-size: 14px;
+          }
+          .box {
+              width: 95%;
+              margin: 10px auto;
+              padding: 15px;
+          }
+          #quiz-container, #concept-map, .chatbot-container {
+              width: 100%;
+          }
+      }
+  </style>
+</head>
+<body>
+    <div align="center">
+        <div id="google_translate_element"></div>
+                
+        <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+      
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      </div>
+    <header class="box">
+        
+        <!--<img src="Djamgatech512x512.webp" alt="Djamgatech Logo" height="80">-->
+       
+        <img src="Djamgatech512x512.webp" alt="Djamgatech Certification Quiz Logo" height="80" loading="lazy"> 
+       
+       
+        <h1>Djamgatech: Professional Certification Quiz Platform</h1>
+    </header>
+    <!-- Start ABout Djamgatech Page Section-->
+    <section class="box">
+        <style>
+            
+            
+            
+            a { color: #007bff; text-decoration: none; }
+            a:hover { text-decoration: underline; }
+            .cert-list li { margin-bottom: 15px; }
+        </style>
+        <button class="collapsible">
+            <h2>What is Djamgatech?</h2>
+        </button>
+        <div class="content" id="about">
+            <h1>🎯 Welcome to Djamgatech Certification Master App 🚀</h1>
+
+            <p>Djamgatech is your ultimate companion for achieving top certifications across Cloud Computing, Cybersecurity, Finance, Healthcare, and Project Management. Harnessing cutting-edge Artificial Intelligence, our app provides personalized learning experiences with constantly updated quizzes, interactive flashcards, and dynamic concept maps.</p>
+            
+            <h2>Why Choose Djamgatech?</h2>
+            <ul>
+              <li>✨ <strong>AI-Powered Adaptive Learning:</strong> Our AI identifies your strengths and weaknesses, tailoring quizzes to maximize your learning efficiency.</li>
+              <li>📈 <strong>Real-Time Updates:</strong> Our content stays up-to-date with the latest certification exams and industry standards, ensuring you're always prepared.</li>
+              <li>🧠 <strong>Interactive Concept Maps:</strong> Visualize and connect complex topics, enhancing your understanding and retention.</li>
+              <li>📊 <strong>Detailed Progress Tracking:</strong> Receive instant feedback and monitor your improvement continuously.<br><a href="https://apps.apple.com/ca/app/djamgatech-certmaster-ai-pro/id1574297762" target="_blank"><img src="/img/cert_exams_progress_chart.png" alt="Djamgatech Certification Exams Progress Bar" style="max-width: 100%; height: auto;"></a></li>
+            </ul>
+            <h2>🤖 AI Chatbots to Enhance Your Learning</h2>
+            <p>Djamgatech includes two powerful AI chatbots to enhance your experience:</p>
+            <ul>
+            <li><strong>📚 Certification Quiz Chatbot:</strong> Interact directly with an intelligent chatbot that quizzes you on your chosen certifications. Answer questions, receive instant corrections, detailed explanations, and authoritative references to solidify your understanding.</li>
+            <li><strong>💼 Career Guidance Chatbot:</strong> Leverage our smart career chatbot to find relevant job opportunities tailored to your skills, certifications, and career aspirations. Accelerate your job search and connect seamlessly with ideal job openings.</li>
+            </ul>
+            
+            <h2>🌟 Featured Certification Exams:</h2>
+            <ul class="cert-list" align="left">
+                <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">💻 AWS Certified Solutions Architect</a></h3>
+                    <p>
+                        This certification validates expertise in designing and deploying scalable, highly available, and fault-tolerant systems on AWS. It covers key concepts like IAM roles, S3 bucket policies, encryption, and access controls. With Djamgatech’s AI-powered quizzes, users can simulate real-world scenarios, reinforcing their understanding of AWS architecture best practices. Mastering this certification can open doors to roles like Cloud Architect or Solutions Engineer, with high demand in the tech industry.
+
+                    </p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔐 CISSP – Certified Information Systems Security Professional</a></h3>
+                    <p>CISSP is a globally recognized certification for cybersecurity professionals, focusing on access control, authentication, authorization, and audit logging. Djamgatech’s AI quizzes help users internalize complex security concepts through targeted questions and concept maps. Earning this certification can lead to roles like Security Consultant or Chief Information Security Officer (CISO), significantly boosting earning potential and career growth.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📊 CFA – Chartered Financial Analyst</a></h3>
+                    <p>The CFA certification is the gold standard for investment professionals, covering financial analysis, valuation models, and risk management. Djamgatech’s AI-driven quizzes provide practice on critical topics like Discounted Cash Flow (DCF) analysis, helping users master the material efficiently. Passing the CFA exams can lead to prestigious roles like Portfolio Manager or Financial Analyst, enhancing credibility in the finance industry.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🤖 AWS AI Practitioner</a></h3>
+                    <p>This certification introduces the fundamentals of AI and machine learning on AWS, including key services and use cases. Djamgatech’s AI quizzes help users test their knowledge of AWS AI tools and concepts, ensuring they’re exam-ready. Achieving this certification can pave the way for roles like AI Specialist or ML Engineer, positioning users at the forefront of AI innovation.</p>
+                  </div> 
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">💻 AWS Certified Developer Associate </a></h3>
+                    <p>Focused on application development on AWS, this certification covers topics like AWS SDKs, CI/CD pipelines, and serverless computing. Djamgatech’s AI quizzes provide hands-on practice, helping users solidify their coding and deployment skills. This certification can lead to roles like Cloud Developer or DevOps Engineer, offering opportunities to work on cutting-edge cloud projects.</p>
+                  </div> 
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔄 AWS Certified DevOps Engineer</a></h3>
+                    <p>This certification emphasizes automation, CI/CD, and infrastructure as code on AWS. Djamgatech’s AI-powered quizzes simulate real-world DevOps challenges, ensuring users are well-prepared for the exam. Earning this certification can lead to high-demand roles like DevOps Engineer or Site Reliability Engineer, with a focus on optimizing cloud operations.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">☁️ AWS Cloud Practitioner</a></h3>
+                    <p>Designed for beginners, this certification provides foundational knowledge of AWS services and cloud concepts. Djamgatech’s AI quizzes help users build confidence by testing their understanding of core AWS principles. This certification is a stepping stone to more advanced AWS roles, making it ideal for those starting their cloud journey.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📊 AWS Data Engineer Associate</a></h3>
+                    <p>This certification focuses on designing and implementing data solutions on AWS, including data lakes and ETL pipelines. Djamgatech’s AI quizzes help users practice data engineering concepts, ensuring they’re ready for the exam. Achieving this certification can lead to roles like Data Engineer or Big Data Architect, with opportunities to work on large-scale data projects.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🧠 AWS Machine Learning Engineer</a></h3>
+                    <p>This certification validates expertise in building, training, and deploying machine learning models on AWS. Djamgatech’s AI quizzes provide targeted practice on ML concepts and AWS tools, helping users master the material. Earning this certification can lead to roles like Machine Learning Engineer or Data Scientist, with high demand in AI-driven industries.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🏗️ AWS Solutions Architect</a></h3>
+                    <p>This advanced certification focuses on designing and deploying complex AWS architectures. Djamgatech’s AI quizzes simulate real-world design challenges, ensuring users are well-prepared. Achieving this certification can lead to senior roles like Cloud Architect or Technical Lead, with significant career advancement opportunities.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🌐 AWS Advanced Networking</a></h3>
+                    <p>This certification covers advanced networking concepts, including hybrid cloud environments and AWS networking services. Djamgatech’s AI quizzes help users test their knowledge of networking principles and AWS tools. Earning this certification can lead to roles like Network Architect.</p>
+                  </div>
+                  
+                 
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">☁️ AWS Cloud Practitioner</a></h3>
+                    <p>Designed for beginners, this certification provides foundational knowledge of AWS services and cloud concepts. Djamgatech’s AI quizzes help users build confidence by testing their understanding of core AWS principles. This certification is a stepping stone to more advanced AWS roles, making it ideal for those starting their cloud journey.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📊 AWS Data Engineer Associate</a></h3>
+                    <p>This certification focuses on designing and implementing data solutions on AWS, including data lakes and ETL pipelines. Djamgatech’s AI quizzes help users practice data engineering concepts, ensuring they’re ready for the exam. Achieving this certification can lead to roles like Data Engineer or Big Data Architect, with opportunities to work on large-scale data projects.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🧠 AWS Machine Learning Engineer</a></h3>
+                    <p>This certification validates expertise in building, training, and deploying machine learning models on AWS. Djamgatech’s AI quizzes provide targeted practice on ML concepts and AWS tools, helping users master the material. Earning this certification can lead to roles like Machine Learning Engineer or Data Scientist, with high demand in AI-driven industries.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🏗️ AWS Solutions Architect</a></h3>
+                    <p>This advanced certification focuses on designing and deploying complex AWS architectures. Djamgatech’s AI quizzes simulate real-world design challenges, ensuring users are well-prepared. Achieving this certification can lead to senior roles like Cloud Architect or Technical Lead, with significant career advancement opportunities.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🌐 AWS Advanced Networking</a></h3>
+                    <p>This certification covers advanced networking concepts, including hybrid cloud environments and AWS networking services. Djamgatech’s AI quizzes help users test their knowledge of networking principles and AWS tools. Earning this certification can lead to roles like Network Architect or Cloud Network Engineer, with a focus on designing and managing complex network infrastructures.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔎 Azure AI Fundamentals</a></h3>
+                    <p>This certification introduces the basics of AI and machine learning on Microsoft Azure. Djamgatech’s AI quizzes provide practice on Azure AI tools and concepts, ensuring users are exam-ready. Achieving this certification can lead to roles like AI Developer or Data Scientist, with opportunities to work on innovative AI solutions.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📡 Azure Fabric Data Engineer Associate</a></h3>
+                    <p>This certification focuses on data engineering in Azure Fabric, including data integration and processing. Djamgatech’s AI quizzes help users master data engineering concepts, ensuring they’re prepared for the exam. Earning this certification can lead to roles like Data Engineer or Cloud Data Architect, with high demand in data-driven industries.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">☁️ Azure Fundamentals</a></h3>
+                    <p>This certification provides an introduction to Microsoft Azure services and cloud concepts. Djamgatech’s AI quizzes help users build foundational knowledge, making it ideal for beginners. Achieving this certification can open doors to entry-level cloud roles, setting the stage for more advanced certifications.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📈 CAPM Certification</a></h3>
+                    <p>The CAPM certification is an entry-level project management credential, ideal for those starting their project management careers. Djamgatech’s AI quizzes help users practice project management concepts, ensuring they’re ready for the exam. Earning this certification can lead to roles like Project Coordinator or Junior Project Manager, providing a strong foundation for career growth.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🏥 CCMA Certification</a></h3>
+                    <p>The CCMA certification is designed for clinical medical assistants, covering essential healthcare skills. Djamgatech’s AI quizzes help users test their knowledge of medical procedures and patient care, ensuring they’re exam-ready. Achieving this certification can lead to roles like Clinical Medical Assistant or Patient Care Technician, with opportunities in the growing healthcare industry.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">❤️ CCRN Certification</a></h3>
+                    <p>The CCRN certification is for critical care nurses, validating their expertise in caring for critically ill patients. Djamgatech’s AI quizzes provide practice on critical care concepts, ensuring users are well-prepared. Earning this certification can lead to advanced nursing roles, with opportunities for specialization and higher earning potential.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🛡️ Certified Ethical Hacker (CEH)</a></h3>
+                    <p>The CEH certification focuses on ethical hacking and penetration testing, teaching users how to identify and mitigate security vulnerabilities. Djamgatech’s AI quizzes simulate real-world hacking scenarios, ensuring users are exam-ready. Achieving this certification can lead to roles like Ethical Hacker or Security Analyst, with high demand in cybersecurity.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📈 CFP Certification</a></h3>
+                    <p>The CFP certification focuses on financial planning and personal wealth management. Djamgatech’s AI quizzes help users practice financial planning concepts, ensuring they’re ready for the exam. Earning this certification can lead to roles like Financial Planner or Wealth Manager, with opportunities to help clients achieve their financial goals.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🩺 CHDA Certification</a></h3>
+                    <p>The CHDA certification is for health data analysts, validating their expertise in managing and analyzing healthcare data. Djamgatech’s AI quizzes help users test their knowledge of health data concepts, ensuring they’re exam-ready. Achieving this certification can lead to roles like Health Data Analyst or Healthcare Consultant, with opportunities in the growing healthcare data field.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔐 CISM Certification</a></h3>
+                    <p>The CISM certification focuses on information security management, teaching users how to design and manage security programs. Djamgatech’s AI quizzes provide practice on security management concepts, ensuring users are well-prepared. Earning this certification can lead to roles like Security Manager or IT Director, with high demand in cybersecurity leadership.</p>
+                  </div>
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔏 CISSP Certification</a></h3>
+                    <p>The CISSP certification is a globally recognized credential for cybersecurity professionals, focusing on risk management and security operations. Djamgatech’s AI quizzes help users internalize complex security concepts, ensuring they’re exam-ready. Achieving this certification can lead to roles like Security Consultant or CISO, with significant career advancement opportunities.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">☸️ CKA Certification</a></h3>
+                    <p>The CKA certification validates expertise in Kubernetes administration, including cluster management and troubleshooting. Djamgatech’s AI quizzes provide hands-on practice, ensuring users are ready for the exam. Earning this certification can lead to roles like Kubernetes Administrator or Cloud Engineer, with high demand in containerized environments.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📊 CMA Certification</a></h3>
+                    <p>The CMA certification is for management accountants, covering financial planning, analysis, and control. Djamgatech’s AI quizzes help users practice accounting concepts, ensuring they’re exam-ready. Achieving this certification can lead to roles like Management Accountant or Financial Controller, with opportunities for career growth in finance.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🏥 CNA Certification</a></h3>
+                    <p>The CNA certification is for nursing assistants, validating their skills in patient care. Djamgatech’s AI quizzes help users test their knowledge of nursing concepts, ensuring they’re exam-ready. Earning this certification can lead to roles like Certified Nursing Assistant or Patient Care Technician, with opportunities in the healthcare industry.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🛡️ CompTIA CySA+</a></h3>
+                    <p>The CompTIA CySA+ certification focuses on cybersecurity analysis, teaching users how to detect and respond to security threats. Djamgatech’s AI quizzes simulate real-world scenarios, ensuring users are well-prepared. Achieving this certification can lead to roles like Cybersecurity Analyst or Threat Intelligence Analyst, with high demand in cybersecurity.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔒 CompTIA Security+</a></h3>
+                    <p>The CompTIA Security+ certification covers IT security fundamentals, including network security and risk management. Djamgatech’s AI quizzes help users practice security concepts, ensuring they’re exam-ready. Earning this certification can lead to entry-level roles in IT security, providing a strong foundation for career growth.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📑 CPA Certification</a></h3>
+                    <p>The CPA certification is for accounting professionals, covering auditing, taxation, and financial reporting. Djamgatech’s AI quizzes provide practice on accounting concepts, ensuring users are ready for the exam. Achieving this certification can lead to roles like Certified Public Accountant or Financial Auditor, with high earning potential.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">💉 CPC Certification</a></h3>
+                    <p>The CPC certification is for medical coders, validating their expertise in medical billing and coding. Djamgatech’s AI quizzes help users test their knowledge of coding concepts, ensuring they’re exam-ready. Earning this certification can lead to roles like Medical Coder or Billing Specialist, with opportunities in the healthcare industry.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">💊 CPHT Certification</a></h3>
+                    <p>The CPHT certification is for pharmacy technicians, covering medication dispensing and pharmacy operations. Djamgatech’s AI quizzes help users practice pharmacy concepts, ensuring they’re exam-ready. Achieving this certification can lead to roles like Pharmacy Technician or Medication Safety Officer, with opportunities in the pharmaceutical industry.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📜 CSM Certification</a></h3>
+                    <p>The CSM certification is for Scrum Masters, validating their expertise in Agile project management. Djamgatech’s AI quizzes help users practice Agile concepts, ensuring they’re ready for the exam. Earning this certification can lead to roles like Scrum Master or Agile Coach, with high demand in project management.</p>
+                  </div>
+
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🏦 CTP Certification</a></h3>
+                    <p>The CTP certification focuses on treasury management, including cash flow and risk management. Djamgatech’s AI quizzes help users practice treasury concepts, ensuring they’re exam-ready. Achieving this certification can lead to roles like Treasury Analyst or Cash Manager, with opportunities in corporate finance.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📋 Enrolled Agent Certification</a></h3>
+                    <p>The Enrolled Agent certification is for tax professionals, validating their expertise in tax preparation and representation. Djamgatech’s AI quizzes help users test their knowledge of tax concepts, ensuring they’re exam-ready. Earning this certification can lead to roles like Tax Consultant or Enrolled Agent, with opportunities in tax advisory.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📉 FRM Certification</a></h3>
+                    <p>The FRM certification focuses on financial risk management, teaching users how to identify and mitigate financial risks. Djamgatech’s AI quizzes provide practice on risk management concepts, ensuring users are well-prepared. Achieving this certification can lead to roles like Risk Manager or Financial Analyst, with high demand in finance.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">☁️ Google Associate Cloud Engineer</a></h3>
+                    <p>This certification validates expertise in deploying and managing applications on Google Cloud. Djamgatech’s AI quizzes help users practice cloud engineering concepts, ensuring they’re exam-ready. Earning this certification can lead to roles like Cloud Engineer or DevOps Engineer, with opportunities in cloud computing.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔐 Google Professional Cloud Security Engineer</a></h3>
+                    <p>This certification focuses on securing Google Cloud environments, including identity management and data protection. Djamgatech’s AI quizzes help users test their knowledge of cloud security concepts, ensuring they’re exam-ready. Achieving this certification can lead to roles like Cloud Security Engineer or Security Architect, with high demand in cybersecurity.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📊 Google Professional Data Engineer</a></h3>
+                    <p>This certification validates expertise in designing and implementing data solutions on Google Cloud. Djamgatech’s AI quizzes help users practice data engineering concepts, ensuring they’re ready for the exam. Earning this certification can lead to roles like Data Engineer or Big Data Architect, with opportunities in data-driven industries.</p>
+                  </div>
+
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🧠 Google Professional Machine Learning Engineer</a></h3>
+                    <p>This certification focuses on building and deploying machine learning models on Google Cloud. Djamgatech’s AI quizzes provide targeted practice on ML concepts, ensuring users are exam-ready. Achieving this certification can lead to roles like Machine Learning Engineer or Data Scientist, with high demand in AI-driven industries.</p>
+                  </div>
+
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">⚙️ Lean Six Sigma Black Belt</a></h3>
+                    <p>The Lean Six Sigma Black Belt certification focuses on process optimization and business efficiency. Djamgatech’s AI quizzes help users practice Lean Six Sigma concepts, ensuring they’re exam-ready. Earning this certification can lead to roles like Process Improvement Manager or Business Consultant, with opportunities in operations management.</p>
+                  </div>
+
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">☁️ Microsoft Azure Administrator</a></h3>
+                    <p>This certification validates expertise in managing and deploying Microsoft Azure services. Djamgatech’s AI quizzes help users practice Azure administration concepts, ensuring they’re exam-ready. Achieving this certification can lead to roles like Cloud Administrator or IT Manager, with opportunities in cloud computing.</p>
+                  </div>
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔐 Microsoft Certified Azure Security Engineer Associate</a></h3>
+                    <p>This certification focuses on securing Microsoft Azure environments, including identity management and threat protection. Djamgatech’s AI quizzes help users test their knowledge of Azure security concepts, ensuring they’re exam-ready. Earning this certification can lead to roles like Cloud Security Engineer or Security Architect, with high demand in cybersecurity.</p>
+                  </div>
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📊 PMP - Project Management Professional</a></h3>
+                    <p>The PMP certification is the gold standard for project managers, validating expertise in advanced project management strategies. Djamgatech’s AI quizzes help users practice project management concepts, ensuring they’re exam-ready. Achieving this certification can lead to roles like Project Manager or Program Manager, with significant career advancement opportunities.</p>
+                  </div>
+
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📑 RHIT Certification</a></h3>
+                    <p>The RHIT certification is for health information technicians, validating their expertise in managing patient data. Djamgatech’s AI quizzes help users test their knowledge of health information concepts, ensuring they’re exam-ready. Earning this certification can lead to roles like Health Information Technician or Medical Records Manager, with opportunities in healthcare administration.</p>
+                  </div>
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔄 Six Sigma Green Belt</a></h3>
+                    <p>The Six Sigma Green Belt certification focuses on process improvement and quality control. Djamgatech’s AI quizzes help users practice Six Sigma concepts, ensuring they’re exam-ready. Achieving this certification can lead to roles like Quality Assurance Manager or Process Improvement Specialist, with opportunities in operations management.</p>
+                  </div>
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔵 Microsoft Dynamics 365 Customer Engagement</a></h3>
+                    <p>The Microsoft Dynamics 365 CE certification validates expertise in CRM solutions, including sales, customer service, and marketing automation. Djamgatech's AI quizzes help users master Power Platform integration and business process flows, ensuring exam readiness. Earning this certification can lead to roles like CRM Consultant or Business Applications Specialist, with opportunities in digital transformation projects.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">💙 Salesforce Administrator</a></h3>
+                    <p>The Salesforce Administrator certification demonstrates proficiency in configuring and managing Salesforce CRM platforms. Djamgatech's AI quizzes provide targeted practice on security models, automation tools, and data management, preparing users for certification success. This credential opens doors to roles like Salesforce Admin or CRM Analyst, with high demand in cloud-based customer relationship management.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔴 Oracle Cloud Infrastructure Architect</a></h3>
+                    <p>The OCI Architect certification validates skills in designing secure, high-performance solutions on Oracle Cloud. Djamgatech's AI quizzes cover compute services, autonomous databases, and network architecture, ensuring comprehensive exam preparation. Achieving this certification can lead to roles like Cloud Architect or Infrastructure Engineer, particularly in enterprises using Oracle technologies.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🟢 ITIL 4 Foundation</a></h3>
+                    <p>The ITIL 4 certification establishes foundational knowledge of IT service management best practices. Djamgatech's AI quizzes help users master the service value system and key ITIL practices, streamlining exam preparation. This globally-recognized credential qualifies professionals for IT Service Manager or Process Coordinator roles across all industries.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔘 Cisco CCNA</a></h3>
+                    <p>The CCNA certification validates core networking skills including IP addressing, network access, and security fundamentals. Djamgatech's AI quizzes provide hands-on practice with routing protocols and Cisco technologies, building exam confidence. Certified professionals qualify for Network Technician or Systems Administrator roles, with pathways to advanced Cisco certifications.</p>
+                  </div>
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔮 JNCIP-ENT (Juniper Enterprise Routing & Switching)</a></h3>
+                    <p>The JNCIP-ENT certification validates advanced skills in Juniper enterprise networking, including EVPN/VXLAN, MPLS, and Junos automation. Djamgatech's AI quizzes help users master Junos-specific implementations and troubleshooting techniques. This certification is particularly valuable for telecom and service provider roles, with <strong>85% of Tier 1 carriers</strong> using Juniper infrastructure. Professionals with JNCIP-ENT earn an average salary of <strong>$118,000</strong> (Juniper Networks 2023 Survey) and qualify for roles like Network Architect or Senior Network Engineer in carrier environments.</p>
+                  </div>
+                  
+                  <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">☁️ AWS Certified Advanced Networking - Specialty</a></h3>
+                    <p>The AWS Advanced Networking certification focuses on hybrid cloud architectures, AWS networking services, and global infrastructure. Djamgatech's AI-powered quizzes provide scenario-based practice with Direct Connect, Route 53, and advanced VPC configurations. As the <strong>#1 most valuable cloud networking certification</strong>, it commands an average salary of <strong>$145,000</strong> (Global Knowledge 2025) and boosts AWS Solutions Architect salaries by 27%. Certified professionals are recruited for Cloud Network Architect and Hybrid Infrastructure Specialist roles, especially in enterprises undergoing cloud migration.</p>
+                  </div>
+                  
+
+                    <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔒 Certified Cloud Security Professional (CCSP)</a></h3>
+                    <p>The CCSP certification validates expertise in cloud security architecture and operations. Djamgatech's AI quizzes help master cloud data security, identity management, and compliance frameworks. With <strong>48% year-over-year growth</strong> in cloud security roles (ISC² 2023), CCSP holders earn <strong>$150,000 average salary</strong> and qualify for Cloud Security Architect or Cloud Risk Manager positions at AWS, Microsoft, and cloud-first enterprises.</p>
+                    </div>
+
+                    <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">⚔️ Offensive Security Certified Professional (OSCP)</a></h3>
+                    <p>The OSCP certification proves hands-on penetration testing skills through a grueling 24-hour practical exam. Djamgatech's scenario-based quizzes prepare users for real-world exploitation techniques. As the <strong>#1 most requested</strong> pentesting cert (Cyberseek.org), OSCP holders command <strong>$120,000+ salaries</strong> and are recruited by top security firms like CrowdStrike and Mandiant for Red Team and Vulnerability Assessment roles.</p>
+                    </div>
+
+                    <div class="certification">
+                    <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🛡️ GIAC Security Essentials (GSEC)</a></h3>
+                    <p>The GSEC certification validates practical security knowledge across domains like defense, cryptography, and incident response. Djamgatech's AI drills help reinforce hands-on security skills. With <strong>72% of Fortune 500</strong> requiring GIAC certs for security roles (SANS 2023), GSEC holders earn <strong>$110,000 average salaries</strong> and qualify for Security Operations Center (SOC) Analyst and Threat Hunter positions.</p>
+                    </div>
+                    <div class="certification">
+                        <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🏭 GIAC ICS Security</a></h3>
+                        <p>The GIAC ICS certification validates critical infrastructure protection skills for SCADA/OT systems. Djamgatech's AI quizzes cover industrial protocols, Purdue Model architecture, and ICS-specific threats. With <strong>300% growth</strong> in OT cyberattacks (Dragos 2023), certified professionals earn <strong>$135,000 average salaries</strong> at energy firms, water utilities, and manufacturing plants implementing IIoT security.</p>
+                      </div>
+                      
+                      <div class="certification">
+                        <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔧 DevSecOps Professional</a></h3>
+                        <p>The DevSecOps certification demonstrates CI/CD pipeline security expertise. Djamgatech's scenario-based drills cover SAST/DAST tools, Kubernetes hardening, and compliance-as-code. As <strong>67% of enterprises</strong> now mandate DevSecOps skills (GitLab 2023), certified engineers command <strong>$145,000+ salaries</strong> at cloud-native companies and financial institutions automating security.</p>
+                      </div>
+                      
+                      <div class="certification">
+                        <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🤖 Certified AI Security Engineer (CAISE)</a></h3>
+                        <p>The CAISE certification validates protection of ML systems against adversarial attacks. Djamgatech's AI-powered quizzes train users on model hardening, data poisoning defense, and AI supply chain risks. With <strong>AI security jobs growing 450%</strong> (MITRE 2023), CAISE holders earn <strong>$160,000 premiums</strong> at AI-first companies and defense contractors securing generative AI deployments.</p>
+                      </div>
+               
+  
+
+
+                  
+            </ul>
+            
+            <h2>💡 Unlock Your Potential with the Djamgatech App:</h2>
+            <p>By achieving these certifications, you position yourself for higher-paying jobs, rapid career advancement, and valuable industry recognition.</p>
+            
+            <div style="text-align:center; margin-top:30px;">
+              <a href="https://djamgatech.web.app" target="_blank" style="font-size:20px; padding:10px 20px; background-color:#007bff; color:#fff; border-radius:5px;">Explore the Web App</a>
+            </div>
+            
+            <div style="text-align:center; margin-top:20px;">
+              <a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470" target="_blank">
+                <img src="/img/apple_app_store1.png" alt="Download Djamgatech on the App Store" style="width:200px;">
+              </a>
+            </div>
+            <div style="text-align:center; margin-top:20px;">
+                <a href="https://play.google.com/store/apps/details?id=com.cloudeducation.free" target="_blank">
+                  <img src="/img/google_play_store_icon.jpg" alt="Download Djamgatech on the Google Play Store" style="width:200px;">
+                </a>
+              </div>
+              <div style="text-align:center; margin-top:20px;">
+                <a href="https://apps.microsoft.com/detail/9nnr153jfgw2?hl=en-us&gl=US" target="_blank">
+                  <img src="/img/microsoft-logo-2.webp" alt="Download Djamgatech at the Microsoft Windows App Store" style="width:200px;">
+                </a>
+              </div>
+            
+
+
+        </div>
+
+    </section>
+    <!-- End ABout Djamgatech Page Section-->
+    <main class="box">
+      <select id="examSelect"></select>
+        <select id="question-count">
+            <option value="1">1 Question</option>
+            <option value="2">2 Questions</option>
+            <option value="5">5 Questions</option>
+            <option value="10">10 Questions</option>
+            <option value="15">15 Questions</option>
+            <option value="20">20 Questions</option>
+            <option value="25">25 Questions</option>
+            <option value="50">50 Questions (Full Exam)</option>
+        </select>
+        <button id="startQuiz">Start Quiz</button>
+        <div id="score-popup"></div>
+    </main>
+
+    <!-- Quiz Container -->
+    <div id="global-timer-container">
+      <div id="global-timer-box">
+          Time Remaining: <span id="global-timer">0</span>s
+      </div>
+    </div>
+    <section id="quiz-container" class="box"></section>
+
+    <!-- Concept Map Container -->
+    <section id="concept-map" class="box"></section>
+
+    <!-- Chatbot Container -->
+    <div class="chatbot-container box">
+        <h3>Professional Certification Preparation Chatbot</h3>
+        <script async type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+        <zapier-interfaces-chatbot-embed is-popup='false' chatbot-id='cm7tj55c3000t138catjb3m08' height='600px' width='400px'></zapier-interfaces-chatbot-embed>
+    </div>
+
+    <div class="box">
+    
+    <!-- CBSP FlashCard -->
+<style>
+    .container_simulation_cbsp {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_cbsp {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #6f42c1;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_cbsp button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #6f42c1;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_cbsp {
+        background-color: #6f42c1;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_cbsp, .collapsible_cbsp:hover {
+        background-color: #5a32a3;
+    }
+    .content_cbsp {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_cbsp">
+    <button class="collapsible_cbsp">
+        <h2>Flashcard Quiz Game: Certified Blockchain Security Professional (CBSP)</h2>
+    </button>
+    <div class="content_cbsp">
+        <div class="certification">
+            <h3><a href="https://blockchain-council.org/certifications/certified-blockchain-security-professional/">⛓️ Certified Blockchain Security Professional (CBSP)</a></h3>
+            <p>Validates expertise in securing blockchain networks against 51% attacks, smart contract vulnerabilities, and crypto wallet exploits. With <strong>blockchain attacks increasing 300% YoY</strong> (Chainalysis 2024), CBSP holders earn <strong>$145,000+</strong> auditing DeFi protocols and enterprise blockchain deployments.</p>
+        </div>
+        <br><br><br>
+        <div class="flashcard_cbsp" id="flashcard_cbsp">
+            <div id="flashcard-question_cbsp">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_cbsp" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardCBSP()">Next Question</button>
+            <button onclick="showFlashcardAnswerCBSP()" id="show-answer-button_cbsp" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_cbsp = [
+        {
+            question: "What is a 51% attack in blockchain?",
+            answer: "When a single entity gains majority control of a network's mining power, enabling double-spending. Prevention methods include PoS consensus and chain monitoring tools."
+        },
+        {
+            question: "What are common smart contract vulnerabilities?",
+            answer: "1. Reentrancy attacks 2. Integer overflows 3. Unchecked external calls 4. Front-running 5. Timestamp dependence (All accounted for in OWASP Top 10 for Blockchain)"
+        },
+        {
+            question: "How does zero-knowledge proof enhance blockchain privacy?",
+            answer: "Allows verification of transactions without revealing sensitive data (e.g., zk-SNARKs in Zcash). Uses cryptographic proofs that are ≤ 288 bytes regardless of transaction complexity."
+        },
+        {
+            question: "What is the difference between hot and cold wallet security?",
+            answer: "Hot wallets (connected to internet) require multi-sig and rate limiting. Cold wallets (offline) need physical security and Shamir Backup for seed phrases."
+        },
+        {
+            question: "What are the key differences between Ethereum and Hyperledger security models?",
+            answer: "Ethereum: Public chain with gas economics and MEV risks. Hyperledger: Permissioned chain with PBFT consensus and channel-based isolation for enterprises."
+        }
+    ];
+
+    let currentFlashcardIndex_cbsp = -1;
+
+    function showNextFlashcardCBSP() {
+        currentFlashcardIndex_cbsp++;
+        if (currentFlashcardIndex_cbsp >= flashcards_cbsp.length) currentFlashcardIndex_cbsp = 0;
+        const flashcard = flashcards_cbsp[currentFlashcardIndex_cbsp];
+        document.getElementById("flashcard-question_cbsp").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_cbsp").style.display = "none";
+        document.getElementById("show-answer-button_cbsp").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerCBSP() {
+        const flashcard = flashcards_cbsp[currentFlashcardIndex_cbsp];
+        document.getElementById("flashcard-answer_cbsp").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_cbsp").style.display = "block";
+        document.getElementById("show-answer-button_cbsp").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_cbsp').addEventListener('click', function() {
+        this.classList.toggle('active_cbsp');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End CBSP Flashcard-->
+
+<!-- Automotive Cybersecurity FlashCard -->
+<style>
+    .container_simulation_auto {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_auto {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #e74c3c;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_auto button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #e74c3c;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_auto {
+        background-color: #e74c3c;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_auto, .collapsible_auto:hover {
+        background-color: #c0392b;
+    }
+    .content_auto {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_auto">
+    <button class="collapsible_auto">
+        <h2>Flashcard Quiz Game: Automotive Cybersecurity Engineer</h2>
+    </button>
+    <div class="content_auto">
+        <div class="certification">
+            <h3><a href="https://www.tuvsud.com/en-us/services/training/automotive-cybersecurity">🚗 TÜV SÜD Automotive Cybersecurity Engineer</a></h3>
+            <p>Certifies skills in securing connected vehicles against CAN bus injections, ECU exploits, and V2X communication threats. Aligns with UN R155 regulations mandating cyber protections for all new vehicles by 2025. Professionals earn <strong>$130,000+</strong> at OEMs and Tier 1 suppliers implementing ISO/SAE 21434 standards.</p>
+        </div>
+       
+        <br><br><br>
+        <div class="flashcard_auto" id="flashcard_auto">
+            <div id="flashcard-question_auto">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_auto" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardAuto()">Next Question</button>
+            <button onclick="showFlashcardAnswerAuto()" id="show-answer-button_auto" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_auto = [
+        {
+            question: "What is a CAN bus injection attack?",
+            answer: "Exploiting the Controller Area Network's lack of authentication to send malicious commands (e.g., disabling brakes). Mitigated via CAN FD encryption and intrusion detection systems."
+        },
+        {
+            question: "What are key requirements of UN Regulation R155?",
+            answer: "1. CSMS (Cyber Security Management System) 2. Software bill of materials 3. OTA update security 4. 4-year minimum support period 5. Incident reporting to authorities"
+        },
+        {
+            question: "How does ISO/SAE 21434 differ from ISO 27001?",
+            answer: "21434 is automotive-specific, covering threat analysis for vehicle components (ECUs, sensors) and safety-critical systems. Requires TARA (Threat Analysis and Risk Assessment) for all new models."
+        },
+        {
+            question: "What are the three security levels in AUTOSAR?",
+            answer: "1. Secure Onboard Communication (TLS-like for ECUs) 2. Secure Boot 3. Hardware Secure Modules (HSMs) for crypto operations"
+        },
+        {
+            question: "How do you secure V2X (Vehicle-to-Everything) communications?",
+            answer: "1. IEEE 1609.2 standard for PKI 2. Certificate revocation lists 3. Geobroadcasting limits 4. Platooning message signing with 5ms latency requirements"
+        },
+        {
+            question: "What are the 5 key requirements of UN Regulation R155?",
+            answer: "1. CSMS implementation 2. Software bill of materials 3. Secure OTA updates 4. 4-year support minimum 5. Incident reporting to authorities within 72 hours"
+        },
+        {
+            question: "How do you secure CAN bus communications?",
+            answer: "1. CAN FD with authentication 2. Signal filtering 3. Intrusion detection systems 4. Gateway firewalls 5. Physical layer encryption (e.g., CANcrypt)"
+        },
+        {
+            question: "What makes EV charging stations vulnerable?",
+            answer: "1. Open OCPP protocols 2. Weak PKI implementations 3. PLC injection attacks 4. Demand response spoofing 5. RFID cloning"
+        },
+        {
+            question: "How does ISO/SAE 21434 require handling third-party components?",
+            answer: "1. TARA for all suppliers 2. Signed software artifacts 3. Vulnerability monitoring 4. Compensating controls 5. Update mechanisms for lifetime support"
+        },
+        {
+            question: "What are the security risks of V2X communications?",
+            answer: "1. Fake safety messages 2. Position spoofing 3. Certificate revocation delays 4. Platooning attacks 5. Privacy leaks from BSM data"
+        }
+    ];
+
+    let currentFlashcardIndex_auto = -1;
+
+    function showNextFlashcardAuto() {
+        currentFlashcardIndex_auto++;
+        if (currentFlashcardIndex_auto >= flashcards_auto.length) currentFlashcardIndex_auto = 0;
+        const flashcard = flashcards_auto[currentFlashcardIndex_auto];
+        document.getElementById("flashcard-question_auto").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_auto").style.display = "none";
+        document.getElementById("show-answer-button_auto").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerAuto() {
+        const flashcard = flashcards_auto[currentFlashcardIndex_auto];
+        document.getElementById("flashcard-answer_auto").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_auto").style.display = "block";
+        document.getElementById("show-answer-button_auto").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_auto').addEventListener('click', function() {
+        this.classList.toggle('active_auto');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End Automotive Cybersecurity Flashcard-->
+
+<!-- Space Systems Security FlashCard -->
+<style>
+    .container_simulation_space {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_space {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #3498db;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_space button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #3498db;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_space {
+        background-color: #3498db;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_space, .collapsible_space:hover {
+        background-color: #2980b9;
+    }
+    .content_space {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_space">
+    <button class="collapsible_space">
+        <h2>Flashcard Quiz Game: Space Systems Security (ISSP)</h2>
+    </button>
+    <div class="content_space">
+        <div class="certification">
+            <h3><a href="https://www.issp.org/">🛰️ International Space Security Professional (ISSP)</a></h3>
+            <p>Focuses on protecting satellites (GPS, Starlink) from jamming, spoofing, and laser attacks. Covers space-ground segment encryption and orbital cyber-physical systems. With <strong>1,000+ new satellites launching annually</strong> (ESA 2024), ISSP-certified engineers command <strong>$160,000+</strong> salaries in defense and commercial space sectors.</p>
+        </div>
+        <br><br><br>
+        <div class="flashcard_space" id="flashcard_space">
+            <div id="flashcard-question_space">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_space" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardSpace()">Next Question</button>
+            <button onclick="showFlashcardAnswerSpace()" id="show-answer-button_space" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_space = [
+        {
+            question: "What are the three main attack vectors for satellites?",
+            answer: "1. Uplink jamming (disrupting ground-to-satellite signals) 2. Crosslink interference (satellite-to-satellite) 3. Laser dazzling/blinding of optical sensors"
+        },
+        {
+            question: "How does GPS spoofing work?",
+            answer: "Broadcasting false GPS signals to deceive receivers about location/time. Mitigated via cryptographic authentication (e.g., Galileo's OS-NMA and GPS's Chimera)"
+        },
+        {
+            question: "What is space-ground segment encryption?",
+            answer: "Securing communication between satellites and ground stations using AES-256 or quantum-resistant algorithms. Must balance security with latency constraints (typically <500ms RTT)"
+        },
+        {
+            question: "What are the security risks of satellite constellations like Starlink?",
+            answer: "1. Large attack surface (thousands of satellites) 2. Autonomous collision avoidance hacking 3. Inter-satellite laser link interception 4. Supply chain risks in mass production"
+        },
+        {
+            question: "How do you secure satellite telemetry, tracking and command (TT&C) systems?",
+            answer: "1. Multi-factor authentication for commands 2. Secure bootstrap loading 3. Command counter incrementing 4. Radiation-hardened HSMs for crypto operations"
+        }
+    ];
+
+    let currentFlashcardIndex_space = -1;
+
+    function showNextFlashcardSpace() {
+        currentFlashcardIndex_space++;
+        if (currentFlashcardIndex_space >= flashcards_space.length) currentFlashcardIndex_space = 0;
+        const flashcard = flashcards_space[currentFlashcardIndex_space];
+        document.getElementById("flashcard-question_space").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_space").style.display = "none";
+        document.getElementById("show-answer-button_space").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerSpace() {
+        const flashcard = flashcards_space[currentFlashcardIndex_space];
+        document.getElementById("flashcard-answer_space").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_space").style.display = "block";
+        document.getElementById("show-answer-button_space").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_space').addEventListener('click', function() {
+        this.classList.toggle('active_space');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End Space Systems Security Flashcard-->
+<!-- CEHMS FlashCard -->
+<style>
+    .container_simulation_cehms {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_cehms {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #1abc9c;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_cehms button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #1abc9c;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_cehms {
+        background-color: #1abc9c;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_cehms, .collapsible_cehms:hover {
+        background-color: #16a085;
+    }
+    .content_cehms {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_cehms">
+    <button class="collapsible_cehms">
+        <h2>Flashcard Quiz Game: Certified Ethical Hacker for Medical Systems (CEHMS)</h2>
+    </button>
+    <div class="content_cehms">
+        <div class="certification">
+            <h3><a href="https://www.axelos.com/certifications/propath/cyber-resilience">🏥 Certified Ethical Hacker for Medical Systems (CEHMS)</a></h3>
+            <p>Specialized certification for penetration testing insulin pumps, MRI machines, and IoMT devices. Teaches FDA pre-market submission requirements and IEC 62304 compliance. <strong>90% of hospitals</strong> now require this for device security roles (HIMSS 2024), with salaries reaching <strong>$140,000</strong> at healthcare tech firms.</p>
+        </div>
+        <br><br><br>
+        <div class="flashcard_cehms" id="flashcard_cehms">
+            <div id="flashcard-question_cehms">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_cehms" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardCEHMS()">Next Question</button>
+            <button onclick="showFlashcardAnswerCEHMS()" id="show-answer-button_cehms" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_cehms = [
+        {
+            question: "What are the top 3 vulnerabilities in insulin pumps?",
+            answer: "1. Unencrypted RF communications (916MHz) 2. No authentication for dosage commands 3. Hardcoded backdoor credentials in maintenance interfaces"
+        },
+        {
+            question: "How does IEC 62304 classify medical device software risk?",
+            answer: "Class A (no injury possible) to Class C (death/serious injury possible). Class C requires: 1. Threat modeling 2. Static code analysis 3. Fuzz testing"
+        },
+        {
+            question: "What makes MRI machines vulnerable to cyberattacks?",
+            answer: "1. Windows XP embedded systems 2. Networked DICOM interfaces 3. Gradient coil manipulation can physically damage the machine"
+        },
+        {
+            question: "What are FDA pre-market submission requirements for device security?",
+            answer: "1. SBOM (Software Bill of Materials) 2. Vulnerability disclosure plan 3. Penetration test reports 4. Cryptographic justification document"
+        },
+        {
+            question: "How do you test an IoT medical device's emergency mode?",
+            answer: "1. Verify failsafe operation during DoS attacks 2. Test authentication bypass in crash states 3. Validate RF interference doesn't prevent critical functions"
+        }
+    ];
+
+    let currentFlashcardIndex_cehms = -1;
+
+    function showNextFlashcardCEHMS() {
+        currentFlashcardIndex_cehms++;
+        if (currentFlashcardIndex_cehms >= flashcards_cehms.length) currentFlashcardIndex_cehms = 0;
+        const flashcard = flashcards_cehms[currentFlashcardIndex_cehms];
+        document.getElementById("flashcard-question_cehms").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_cehms").style.display = "none";
+        document.getElementById("show-answer-button_cehms").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerCEHMS() {
+        const flashcard = flashcards_cehms[currentFlashcardIndex_cehms];
+        document.getElementById("flashcard-answer_cehms").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_cehms").style.display = "block";
+        document.getElementById("show-answer-button_cehms").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_cehms').addEventListener('click', function() {
+        this.classList.toggle('active_cehms');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End CEHMS Flashcard-->
+<!-- CIPM-AI FlashCard -->
+<style>
+    .container_simulation_cipmai {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_cipmai {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #9b59b6;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_cipmai button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #9b59b6;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_cipmai {
+        background-color: #9b59b6;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_cipmai, .collapsible_cipmai:hover {
+        background-color: #8e44ad;
+    }
+    .content_cipmai {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_cipmai">
+    <button class="collapsible_cipmai">
+        <h2>Flashcard Quiz Game: CIPM-AI (AI Governance)</h2>
+    </button>
+    <div class="content_cipmai">
+        <div class="certification">
+            <h3><a href="https://iapp.org/certify/ai-governance/">🤖 CIPM-AI (Certified Information Privacy Manager for AI)</a></h3>
+            <p>Combines GDPR Article 22 with AI-specific regulations like EU AI Act and NIST AI RMF. Focuses on algorithmic impact assessments and synthetic data governance. <strong>70% of Fortune 500</strong> now seek this certification (IAPP 2024), with <strong>$155,000+</strong> roles in AI ethics boards and compliance.</p>
+        </div>
+        <br><br><br>
+        <div class="flashcard_cipmai" id="flashcard_cipmai">
+            <div id="flashcard-question_cipmai">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_cipmai" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardCIPMAI()">Next Question</button>
+            <button onclick="showFlashcardAnswerCIPMAI()" id="show-answer-button_cipmai" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_cipmai = [
+        {
+            question: "What are the 4 risk tiers under the EU AI Act?",
+            answer: "1. Unacceptable (banned) 2. High-risk (medical, critical infra) 3. Limited risk (chatbots) 4. Minimal risk (spam filters). High-risk requires conformity assessments."
+        },
+        {
+            question: "How does NIST AI RMF differ from traditional risk frameworks?",
+            answer: "Adds AI-specific dimensions: 1. Training data provenance 2. Model cards 3. Adversarial robustness testing 4. Continuous monitoring for drift"
+        },
+        {
+            question: "What must an Algorithmic Impact Assessment include under Canada's AIDA?",
+            answer: "1. Bias testing results 2. Fallback procedures 3. Human oversight plan 4. Third-party audit trail 5. Impact on marginalized groups"
+        },
+        {
+            question: "What are the 3 requirements for synthetic data under GDPR Article 22?",
+            answer: "1. Non-reversible anonymization 2. No statistical inference to real persons 3. Documentation of generation methodology"
+        },
+        {
+            question: "How do you implement 'right to explanation' for black-box AI models?",
+            answer: "1. Counterfactual explanations 2. Local interpretable model-agnostic explanations (LIME) 3. SHAP values 4. Maintain human-readable decision logs"
+        }
+    ];
+
+    let currentFlashcardIndex_cipmai = -1;
+
+    function showNextFlashcardCIPMAI() {
+        currentFlashcardIndex_cipmai++;
+        if (currentFlashcardIndex_cipmai >= flashcards_cipmai.length) currentFlashcardIndex_cipmai = 0;
+        const flashcard = flashcards_cipmai[currentFlashcardIndex_cipmai];
+        document.getElementById("flashcard-question_cipmai").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_cipmai").style.display = "none";
+        document.getElementById("show-answer-button_cipmai").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerCIPMAI() {
+        const flashcard = flashcards_cipmai[currentFlashcardIndex_cipmai];
+        document.getElementById("flashcard-answer_cipmai").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_cipmai").style.display = "block";
+        document.getElementById("show-answer-button_cipmai").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_cipmai').addEventListener('click', function() {
+        this.classList.toggle('active_cipmai');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End CIPM-AI Flashcard-->
+<!-- QNE FlashCard -->
+<style>
+    .container_simulation_qne {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_qne {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #3498db;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_qne button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #3498db;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_qne {
+        background-color: #3498db;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_qne, .collapsible_qne:hover {
+        background-color: #2980b9;
+    }
+    .content_qne {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_qne">
+    <button class="collapsible_qne">
+        <h2>Flashcard Quiz Game: Quantum Network Engineer (QNE)</h2>
+    </button>
+    
+    <div class="content_qne">
+        <div class="certification">
+            <h3><a href="https://www.quantum-education.org/">🔮 Quantum Network Engineer (QNE)</a></h3>
+            <p>Certifies skills in deploying QKD networks and post-quantum VPNs using NIST-approved algorithms. Covers quantum repeater architectures and entanglement-based key distribution. With <strong>national quantum networks</strong> launching in 15+ countries (ITU 2024), QNEs earn <strong>$175,000+</strong> at telecoms and defense contractors.</p>
+        </div>
+        <br><br><br>
+        <div class="flashcard_qne" id="flashcard_qne">
+            <div id="flashcard-question_qne">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_qne" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardQNE()">Next Question</button>
+            <button onclick="showFlashcardAnswerQNE()" id="show-answer-button_qne" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_qne = [
+        {
+            question: "What are the three types of QKD protocols?",
+            answer: "1. Discrete Variable (BB84) 2. Continuous Variable 3. Measurement Device Independent (MDI). BB84 remains most widely deployed with 1.5Mbps key rates in commercial systems."
+        },
+        {
+            question: "How does post-quantum VPN differ from traditional VPN?",
+            answer: "Uses NIST-approved algorithms (CRYSTALS-Kyber for key exchange, Dilithium for signatures) with 2-5x larger key sizes but resistant to Shor's algorithm attacks."
+        },
+        {
+            question: "What is the maximum theoretical distance for fiber-based QKD?",
+            answer: "~400km with ultra-low-loss fiber (0.16dB/km) and superconducting detectors. Practical deployments use trusted node relays every 100-150km."
+        },
+        {
+            question: "How do quantum repeaters work?",
+            answer: "Use entanglement swapping to extend QKD range: 1. Create entangled photon pairs 2. Perform Bell-state measurements 3. Distribute keys through intermediate nodes without exposing key material."
+        },
+        {
+            question: "What are the security requirements for a quantum network's classical channel?",
+            answer: "1. AES-256 encryption 2. HMAC authentication 3. Strict latency synchronization (<1μs jitter) 4. Separate physical fiber path from quantum channel"
+        }
+    ];
+
+    let currentFlashcardIndex_qne = -1;
+
+    function showNextFlashcardQNE() {
+        currentFlashcardIndex_qne++;
+        if (currentFlashcardIndex_qne >= flashcards_qne.length) currentFlashcardIndex_qne = 0;
+        const flashcard = flashcards_qne[currentFlashcardIndex_qne];
+        document.getElementById("flashcard-question_qne").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_qne").style.display = "none";
+        document.getElementById("show-answer-button_qne").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerQNE() {
+        const flashcard = flashcards_qne[currentFlashcardIndex_qne];
+        document.getElementById("flashcard-answer_qne").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_qne").style.display = "block";
+        document.getElementById("show-answer-button_qne").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_qne').addEventListener('click', function() {
+        this.classList.toggle('active_qne');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End QNE Flashcard-->
+
+<!-- IMVSEC FlashCard -->
+<style>
+    .container_simulation_imvsec {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_imvsec {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #e67e22;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_imvsec button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #e67e22;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_imvsec {
+        background-color: #e67e22;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_imvsec, .collapsible_imvsec:hover {
+        background-color: #d35400;
+    }
+    .content_imvsec {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_imvsec">
+    <button class="collapsible_imvsec">
+        <h2>Flashcard Quiz Game: Industrial Metaverse Security (IMVSEC)</h2>
+    </button>
+    <div class="content_imvsec">
+        <div class="certification">
+            <h3><a href="https://www.digitaltwinconsortium.org/">👓 Industrial Metaverse Security Specialist (IMVSEC)</a></h3>
+            <p>Focuses on securing digital twin environments against asset hijacking, physics engine exploits, and AR/VR social engineering. Required for <strong>45% of Industry 4.0 projects</strong> (McKinsey 2024), with <strong>$150,000+</strong> salaries at manufacturing and energy firms building enterprise metaverses.</p>
+        </div>
+        <br><br><br>
+        <div class="flashcard_imvsec" id="flashcard_imvsec">
+            <div id="flashcard-question_imvsec">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_imvsec" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardIMVSEC()">Next Question</button>
+            <button onclick="showFlashcardAnswerIMVSEC()" id="show-answer-button_imvsec" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_imvsec = [
+        {
+            question: "What are the three main attack surfaces in industrial digital twins?",
+            answer: "1. Physics engine manipulation (causing false simulations) 2. Asset hijacking (3D model replacement) 3. Sensor-data injection (IIoT gateway compromise)"
+        },
+        {
+            question: "How do you secure Unity/Unreal Engine-based metaverse environments?",
+            answer: "1. Code signing for asset bundles 2. Runtime integrity checks 3. Sandboxed WebAssembly execution 4. Blockchain-based asset provenance tracking"
+        },
+        {
+            question: "What are the unique risks of AR-based maintenance systems?",
+            answer: "1. Marker spoofing (fake QR codes) 2. Overlay attacks (wrong repair instructions) 3. Spatial anchor poisoning (misaligned holograms) 4. Thermal camera data leaks"
+        },
+        {
+            question: "How does IEC 62443-4-1 apply to metaverse industrial systems?",
+            answer: "Requires: 1. Secure development lifecycle for digital twin software 2. Vulnerability disclosure processes 3. Signed firmware updates for VR hardware 4. Role-based access to simulation controls"
+        },
+        {
+            question: "What makes industrial metaverse social engineering more dangerous?",
+            answer: "1. Deepfake avatars of executives 2. VR shoulder surfing 3. Haptic feedback manipulation 4. Spatial audio eavesdropping (3D sound leakage)"
+        }
+    ];
+
+    let currentFlashcardIndex_imvsec = -1;
+
+    function showNextFlashcardIMVSEC() {
+        currentFlashcardIndex_imvsec++;
+        if (currentFlashcardIndex_imvsec >= flashcards_imvsec.length) currentFlashcardIndex_imvsec = 0;
+        const flashcard = flashcards_imvsec[currentFlashcardIndex_imvsec];
+        document.getElementById("flashcard-question_imvsec").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_imvsec").style.display = "none";
+        document.getElementById("show-answer-button_imvsec").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerIMVSEC() {
+        const flashcard = flashcards_imvsec[currentFlashcardIndex_imvsec];
+        document.getElementById("flashcard-answer_imvsec").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_imvsec").style.display = "block";
+        document.getElementById("show-answer-button_imvsec").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_imvsec').addEventListener('click', function() {
+        this.classList.toggle('active_imvsec');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End IMVSEC Flashcard-->
+
+<!-- CPSA FlashCard -->
+<style>
+    .container_simulation_cpsa {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_cpsa {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #c0392b;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_cpsa button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #c0392b;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_cpsa {
+        background-color: #c0392b;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_cpsa, .collapsible_cpsa:hover {
+        background-color: #a5281b;
+    }
+    .content_cpsa {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_cpsa">
+    <button class="collapsible_cpsa">
+        <h2>Flashcard Quiz Game: Cyber-Physical Systems Architect (CPSA)</h2>
+    </button>
+    <div class="content_cpsa">
+        <div class="certification">
+            <h3><a href="https://www.isa.org/">🏭 ISA/IEC 62443 Cyber-Physical Systems Architect (CPSA)</a></h3>
+            <p>Advanced certification for securing OT/IoT convergence in smart cities and critical infrastructure. Teaches Purdue Model extensions for 5G-enabled edge devices. <strong>Mandatory</strong> for contractors working on U.S. EO 14028 compliance, with <strong>$165,000+</strong> defense sector roles.</p>
+        </div>
+        <br><br><br>
+        <div class="flashcard_cpsa" id="flashcard_cpsa">
+            <div id="flashcard-question_cpsa">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_cpsa" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardCPSA()">Next Question</button>
+            <button onclick="showFlashcardAnswerCPSA()" id="show-answer-button_cpsa" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_cpsa = [
+        {
+            question: "What are the 4 security levels in extended Purdue Model for IIoT?",
+            answer: "1. Enterprise (Level 4-5) 2. DMZ (Level 3.5) 3. Edge Computing (Level 2.5) 4. Field Devices (Level 0-1). New edge tier requires TLS 1.3 and secure containerization."
+        },
+        {
+            question: "How do you secure 5G-connected PLCs?",
+            answer: "1. Network slicing isolation 2. UEBA for device behavior 3. Microsegmentation with SDP 4. Firmware signing with HSM-backed keys 5. 10ms latency QoS guarantees"
+        },
+        {
+            question: "What makes CPS different from traditional IT systems?",
+            answer: "1. Real-time constraints (<2ms response) 2. Safety-critical operations 3. Air-gap bypass risks 4. Legacy protocols (Modbus/DNP3) 5. 20+ year device lifecycles"
+        },
+        {
+            question: "What are the 3 key requirements of EO 14028 for critical infrastructure?",
+            answer: "1. Zero-trust architecture 2. SBOM for all components 3. Multi-factor auth for OT systems 4. 1-hour incident response SLA for critical systems"
+        },
+        {
+            question: "How does ISA/IEC 62443-3-3 apply to smart city deployments?",
+            answer: "Requires: 1. Secure boot for traffic controllers 2. Encrypted SCADA comms 3. Physical tamper detection 4. Fail-safe defaults for public safety systems"
+        }
+    ];
+
+    let currentFlashcardIndex_cpsa = -1;
+
+    function showNextFlashcardCPSA() {
+        currentFlashcardIndex_cpsa++;
+        if (currentFlashcardIndex_cpsa >= flashcards_cpsa.length) currentFlashcardIndex_cpsa = 0;
+        const flashcard = flashcards_cpsa[currentFlashcardIndex_cpsa];
+        document.getElementById("flashcard-question_cpsa").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_cpsa").style.display = "none";
+        document.getElementById("show-answer-button_cpsa").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerCPSA() {
+        const flashcard = flashcards_cpsa[currentFlashcardIndex_cpsa];
+        document.getElementById("flashcard-answer_cpsa").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_cpsa").style.display = "block";
+        document.getElementById("show-answer-button_cpsa").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_cpsa').addEventListener('click', function() {
+        this.classList.toggle('active_cpsa');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End CPSA Flashcard-->
+
+<!-- DCSE FlashCard -->
+<style>
+    .container_simulation_dcse {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_dcse {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #16a085;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_dcse button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #16a085;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_dcse {
+        background-color: #16a085;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_dcse, .collapsible_dcse:hover {
+        background-color: #1abc9c;
+    }
+    .content_dcse {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_dcse">
+    <button class="collapsible_dcse">
+        <h2>Flashcard Quiz Game: Drone Cybersecurity Expert (DCSE)</h2>
+    </button>
+    <div class="content_dcse">
+        <div class="certification">
+            <h3><a href="https://www.dronesec.com/">🚁 Drone Cybersecurity Expert (DCSE)</a></h3>
+            <p>Validates skills in countering GPS spoofing, FLIR sensor attacks, and swarm command hijacking. Aligns with FAA Remote ID regulations and NATO STANAG 4586. <strong>80% of commercial drone fleets</strong> now require DCSE-certified staff (Drone Industry Insights 2024), paying <strong>$135,000+</strong>.</p>
+        </div>
+        <br><br><br>
+        <div class="flashcard_dcse" id="flashcard_dcse">
+            <div id="flashcard-question_dcse">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_dcse" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardDCSE()">Next Question</button>
+            <button onclick="showFlashcardAnswerDCSE()" id="show-answer-button_dcse" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_dcse = [
+        {
+            question: "What are the three phases of drone GPS spoofing?",
+            answer: "1. Signal overpowering (10dB stronger than real GPS) 2. Coordinate drift (gradual position shift) 3. Full control (false waypoint injection). Mitigated via multi-constellation GNSS (GPS+Galileo+GLONASS)."
+        },
+        {
+            question: "How does NATO STANAG 4586 secure military drones?",
+            answer: "1. AES-256 encrypted datalinks 2. Frequency hopping (50+ channels) 3. Two-person control rule 4. Optical fallback when RF compromised"
+        },
+        {
+            question: "What are the risks of FLIR thermal camera systems?",
+            answer: "1. Image injection (fake heat signatures) 2. ROI (Region of Interest) spoofing 3. Temperature scale manipulation 4. Radiometric data leaks (revealing sensitive patterns)"
+        },
+        {
+            question: "How does FAA Remote ID prevent rogue drones?",
+            answer: "Requires: 1. Broadcast of serial#/position via Bluetooth/WiFi 2. Network ID submission to USS 3. Geo-awareness firmware 4. Altitude/time restrictions in TFR zones"
+        },
+        {
+            question: "What makes drone swarm communications vulnerable?",
+            answer: "1. Mesh network Sybil attacks 2. Consensus algorithm exploits 3. Formation control hijacking 4. AI model poisoning (adversarial ML)"
+        }
+    ];
+
+    let currentFlashcardIndex_dcse = -1;
+
+    function showNextFlashcardDCSE() {
+        currentFlashcardIndex_dcse++;
+        if (currentFlashcardIndex_dcse >= flashcards_dcse.length) currentFlashcardIndex_dcse = 0;
+        const flashcard = flashcards_dcse[currentFlashcardIndex_dcse];
+        document.getElementById("flashcard-question_dcse").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_dcse").style.display = "none";
+        document.getElementById("show-answer-button_dcse").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerDCSE() {
+        const flashcard = flashcards_dcse[currentFlashcardIndex_dcse];
+        document.getElementById("flashcard-answer_dcse").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_dcse").style.display = "block";
+        document.getElementById("show-answer-button_dcse").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_dcse').addEventListener('click', function() {
+        this.classList.toggle('active_dcse');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End DCSE Flashcard-->
+<!-- CNS FlashCard -->
+<style>
+    .container_simulation_cns {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_cns {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #8e44ad;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_cns button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #8e44ad;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_cns {
+        background-color: #8e44ad;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_cns, .collapsible_cns:hover {
+        background-color: #7d3c98;
+    }
+    .content_cns {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_cns">
+    <button class="collapsible_cns">
+        <h2>Flashcard Quiz Game: Certified Neurosecurity Specialist (CNS)</h2>
+    </button>
+    <div class="content_cns">
+        <div class="certification">
+            <h3><a href="https://www.neurosecurity.org/">🧠 Certified Neurosecurity Specialist (CNS)</a></h3>
+            <p>Pioneering certification for securing brain-computer interfaces (BCIs) and neural implants against signal injection and memory alteration attacks. Covers FDA Class III device requirements for neurotechnology. With <strong>BCI adoption growing 400% annually</strong> (NeuroTechX 2024), CNS holders earn <strong>$180,000+</strong> in medtech and defense.</p>
+        </div>
+        <br><br><br>
+        <div class="flashcard_cns" id="flashcard_cns">
+            <div id="flashcard-question_cns">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_cns" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardCNS()">Next Question</button>
+            <button onclick="showFlashcardAnswerCNS()" id="show-answer-button_cns" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_cns = [
+        {
+            question: "What are the three attack vectors for neural implants?",
+            answer: "1. Signal injection (EEG spoofing) 2. Memory alteration (hippocampal interference) 3. Side-channel attacks (power analysis of brainwave patterns)"
+        },
+        {
+            question: "How does FDA Class III classification impact BCI security?",
+            answer: "Requires: 1. Biocompatible encryption 2. Fail-safe neural interrupts 3. 3rd party penetration testing 4. Post-market surveillance for 10+ years"
+        },
+        {
+            question: "What makes EEG headsets vulnerable to side-channel attacks?",
+            answer: "1. Predictable noise patterns 2. Unencrypted raw brainwave data 3. Sensor spoofing via EM interference 4. Machine learning model inversion attacks"
+        },
+        {
+            question: "How do you secure motor cortex control signals?",
+            answer: "1. Dynamic signal masking 2. Neural traffic shaping 3. Two-factor neuron activation 4. Continuous entropy monitoring"
+        },
+        {
+            question: "What are the ethical requirements for memory-altering BCIs?",
+            answer: "1. Informed consent for memory edits 2. Immutable audit logs 3. Emotional impact assessments 4. Neuroethics board approval per Helsinki Declaration"
+        }
+    ];
+
+    let currentFlashcardIndex_cns = -1;
+
+    function showNextFlashcardCNS() {
+        currentFlashcardIndex_cns++;
+        if (currentFlashcardIndex_cns >= flashcards_cns.length) currentFlashcardIndex_cns = 0;
+        const flashcard = flashcards_cns[currentFlashcardIndex_cns];
+        document.getElementById("flashcard-question_cns").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_cns").style.display = "none";
+        document.getElementById("show-answer-button_cns").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerCNS() {
+        const flashcard = flashcards_cns[currentFlashcardIndex_cns];
+        document.getElementById("flashcard-answer_cns").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_cns").style.display = "block";
+        document.getElementById("show-answer-button_cns").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_cns').addEventListener('click', function() {
+        this.classList.toggle('active_cns');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End CNS Flashcard-->
+
+<!-- ISSP FlashCard -->
+<style>
+    .container_simulation_issp {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .flashcard_issp {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #3498db;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard_issp button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        background-color: #3498db;
+        color: #fff;
+        cursor: pointer;
+    }
+    .collapsible_issp {
+        background-color: #3498db;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: center;
+        outline: none;
+        font-size: 1.5em;
+        border-radius: 10px;
+    }
+    .active_issp, .collapsible_issp:hover {
+        background-color: #2980b9;
+    }
+    .content_issp {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+    }
+</style>
+
+<div class="container_simulation_issp">
+    <button class="collapsible_issp">
+        <h2>Flashcard Quiz Game: Space Systems Security (ISSP)</h2>
+    </button>
+    <div class="content_issp">
+        <div class="certification">
+            <h3><a href="https://www.issp.org/">🛰️ International Space Security Professional (ISSP)</a></h3>
+            <p>Focuses on protecting satellites (GPS, Starlink) from jamming, spoofing, and laser attacks. Covers space-ground segment encryption and orbital cyber-physical systems. With <strong>1,000+ new satellites launching annually</strong> (ESA 2024), ISSP-certified engineers command <strong>$160,000+</strong> salaries in defense and commercial space sectors.</p>
+        </div>
+        <br><br><br>
+        <div class="flashcard_issp" id="flashcard_issp">
+            <div id="flashcard-question_issp">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer_issp" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcardISSP()">Next Question</button>
+            <button onclick="showFlashcardAnswerISSP()" id="show-answer-button_issp" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    </div>
+</div>
+
+<script>
+    const flashcards_issp = [
+        {
+            question: "What are the three main attack vectors for satellites?",
+            answer: "1. Uplink jamming (disrupting ground commands) 2. Crosslink interference (satellite-to-satellite) 3. Laser dazzling (blinding optical sensors)"
+        },
+        {
+            question: "How does GPS spoofing threaten maritime navigation?",
+            answer: "1. False position reporting 2. AIS spoofing 3. Collision course creation. Mitigated via Galileo's OS-NMA authentication and multi-constellation receivers."
+        },
+        {
+            question: "What makes Starlink's inter-satellite links vulnerable?",
+            answer: "1. Laser communication interception 2. Routing table poisoning 3. Constellation topology mapping 4. Quantum computing threats to encryption"
+        },
+        {
+            question: "How do you secure satellite telemetry, tracking and command (TT&C) systems?",
+            answer: "1. Multi-factor authentication 2. Secure bootstrap loading 3. Command counter incrementing 4. Radiation-hardened HSMs for crypto operations"
+        },
+        {
+            question: "What are the space-specific requirements of NIST SP 800-53?",
+            answer: "1. Single-event upset mitigation 2. Radiation-tolerant encryption 3. Autonomous threat response 4. 10-year cryptographic agility planning"
+        }
+    ];
+
+    let currentFlashcardIndex_issp = -1;
+
+    function showNextFlashcardISSP() {
+        currentFlashcardIndex_issp++;
+        if (currentFlashcardIndex_issp >= flashcards_issp.length) currentFlashcardIndex_issp = 0;
+        const flashcard = flashcards_issp[currentFlashcardIndex_issp];
+        document.getElementById("flashcard-question_issp").innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        document.getElementById("flashcard-answer_issp").style.display = "none";
+        document.getElementById("show-answer-button_issp").style.display = "inline-block";
+    }
+
+    function showFlashcardAnswerISSP() {
+        const flashcard = flashcards_issp[currentFlashcardIndex_issp];
+        document.getElementById("flashcard-answer_issp").innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        document.getElementById("flashcard-answer_issp").style.display = "block";
+        document.getElementById("show-answer-button_issp").style.display = "none";
+    }
+
+    document.querySelector('.collapsible_issp').addEventListener('click', function() {
+        this.classList.toggle('active_issp');
+        this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block';
+    });
+</script>
+<!--End ISSP Flashcard-->
+
+
+    <!--AWS AI Practitioner FlashCard-->
+<style>
+    .container_simulation40 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .concept_node40 {
+        display: inline-block;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+    .concept_node40:hover {
+        transform: scale(1.1);
+    }
+    .concept_connection {
+        margin: 5px;
+        font-size: 1.5em;
+    }
+    .concept_details40 {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid #007BFF;
+        border-radius: 10px;
+        background-color: #e0f7ff;
+        font-size: 1.5em;
+        text-align: left;
+    }
+    .flashcard40 {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #007BFF;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard40 button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1.5em;
+        border: none;
+        border-radius: 5px;
+        background-color: #007BFF;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .flashcard40 button:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<button class="collapsible">
+    <h2>Flashcard Quiz Game: AWS AI Practitioner</h2>
+</button>
+<div class="content" id="concept_map40">
+    <div class="certification">
+        <h3><a href="https://machinelearningcertification.web.app/">🤖 AWS AI Practitioner</a></h3>
+        <p>This certification introduces the fundamentals of AI and machine learning on AWS, including key services and use cases. Djamgatech’s AI quizzes help users test their knowledge of AWS AI tools and concepts, ensuring they’re exam-ready. Achieving this certification can pave the way for roles like AI Specialist or ML Engineer, positioning users at the forefront of AI innovation.</p>
+      </div>
+    <br><br><br>
+    <!-- Flashcard Quiz Game Section -->
+    <div class="flashcard40" id="flashcard40">
+        <div id="flashcard-question40">Click 'Next' to start the flashcard quiz!</div>
+        <div id="flashcard-answer40" style="display:none; margin-top: 10px;"></div>
+        <button onclick="showNextFlashcard40()">Next Question</button>
+        <button onclick="showFlashcardAnswer40()" id="show-answer-button40" style="display:none;">Show Answer</button>
+    </div>
+    <br><br><br>
+
+<script>
+    // Data for flashcard quiz
+    const flashcards40 = [
+        {
+            question: "What is the AWS AI Practitioner certification?",
+            answer: "It is a certification that validates foundational knowledge of artificial intelligence (AI) and machine learning (ML) concepts and their implementation on AWS."
+        },
+        {
+            question: "What is Amazon SageMaker?",
+            answer: "A fully managed service that provides tools to build, train, and deploy machine learning models at scale."
+        },
+        {
+            question: "What is the purpose of AWS DeepRacer?",
+            answer: "A fun and educational way to learn about reinforcement learning by training autonomous race cars."
+        },
+        {
+            question: "What is the difference between supervised and unsupervised learning?",
+            answer: "Supervised learning uses labeled data to train models, while unsupervised learning uses unlabeled data to find patterns."
+        },
+        {
+            question: "What is AWS Rekognition?",
+            answer: "A service that provides image and video analysis using deep learning to identify objects, people, and activities."
+        },
+        {
+            question: "What is the purpose of AWS Comprehend?",
+            answer: "A natural language processing (NLP) service that uses machine learning to analyze text and extract insights."
+        },
+        {
+            question: "What is AWS Polly?",
+            answer: "A service that turns text into lifelike speech using deep learning."
+        },
+        {
+            question: "What is the difference between batch inference and real-time inference?",
+            answer: "Batch inference processes large datasets at once, while real-time inference provides immediate predictions for individual inputs."
+        },
+        {
+            question: "What is AWS Lex?",
+            answer: "A service for building conversational interfaces using voice and text, powered by the same technology as Alexa."
+        },
+        {
+            question: "What is the purpose of AWS Forecast?",
+            answer: "A service that uses machine learning to generate highly accurate forecasts for business metrics."
+        },
+        {
+            question: "What is the difference between a model and an algorithm in machine learning?",
+            answer: "An algorithm is a mathematical procedure, while a model is the output of an algorithm trained on data."
+        },
+        {
+            question: "What is AWS DeepComposer?",
+            answer: "A service that uses generative AI to create music, helping users learn about generative adversarial networks (GANs)."
+        },
+        {
+            question: "What is the purpose of AWS Textract?",
+            answer: "A service that automatically extracts text, forms, and tables from scanned documents using machine learning."
+        },
+        {
+            question: "What is the difference between classification and regression in machine learning?",
+            answer: "Classification predicts discrete labels, while regression predicts continuous values."
+        },
+        {
+            question: "What is AWS Personalize?",
+            answer: "A service that uses machine learning to create personalized recommendations for users."
+        }
+    ];
+
+    let currentFlashcardIndex40 = -1;
+
+    function showNextFlashcard40() {
+        currentFlashcardIndex40++;
+        if (currentFlashcardIndex40 >= flashcards40.length) {
+            currentFlashcardIndex40 = 0; // Restart the quiz if it reaches the end
+        }
+        const flashcard = flashcards40[currentFlashcardIndex40];
+        const flashcardQuestionDiv = document.getElementById("flashcard-question40");
+        const flashcardAnswerDiv = document.getElementById("flashcard-answer40");
+        const showAnswerButton = document.getElementById("show-answer-button40");
+        
+        flashcardQuestionDiv.innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        flashcardAnswerDiv.style.display = "none";
+        showAnswerButton.style.display = "inline-block";
+    }
+
+    function showFlashcardAnswer40() {
+        const flashcard = flashcards40[currentFlashcardIndex40];
+        const flashcardAnswerDiv = document.getElementById("flashcard-answer40");
+        flashcardAnswerDiv.innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        flashcardAnswerDiv.style.display = "block";
+        document.getElementById("show-answer-button40").style.display = "none";
+    }
+</script>
+<br><br>
+</div>
+
+<!--End AWS AI Practitioner Flashcard-->
+
+    <!--AWS SAA FlashCard-->
+    <style>
+        .container_simulation37 {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .concept_node37 {
+            display: inline-block;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+        .concept_node37:hover {
+            transform: scale(1.1);
+        }
+        .concept_connection {
+            margin: 5px;
+            font-size: 1.5em;
+        }
+        .concept_details37 {
+            margin: 20px;
+            padding: 20px;
+            border: 2px solid #007BFF;
+            border-radius: 10px;
+            background-color: #e0f7ff;
+            font-size: 1.5em;
+            text-align: left;
+        }
+        .flashcard37 {
+            margin: 20px auto;
+            padding: 20px;
+            width: 80%;
+            max-width: 500px;
+            border: 2px solid #007BFF;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .flashcard37 button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.5em;
+            border: none;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .flashcard37 button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    
+    <button class="collapsible">
+        <h2>Flashcard Quiz Game: AWS Certified Solutions Architect</h2>
+    </button>
+    <div class="content" id="concept_map37">
+        <div class="certification">
+            <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">💻 AWS Certified Solutions Architect</a></h3>
+            <p>
+                This certification validates expertise in designing and deploying scalable, highly available, and fault-tolerant systems on AWS. It covers key concepts like IAM roles, S3 bucket policies, encryption, and access controls. With Djamgatech’s AI-powered quizzes, users can simulate real-world scenarios, reinforcing their understanding of AWS architecture best practices. Mastering this certification can open doors to roles like Cloud Architect or Solutions Engineer, with high demand in the tech industry.
+
+            </p>
+          </div>
+        <br><br><br>
+        <!-- Flashcard Quiz Game Section -->
+        <div class="flashcard37" id="flashcard37">
+            <div id="flashcard-question37">Click 'Next' to start the flashcard quiz!</div>
+            <div id="flashcard-answer37" style="display:none; margin-top: 10px;"></div>
+            <button onclick="showNextFlashcard37()">Next Question</button>
+            <button onclick="showFlashcardAnswer37()" id="show-answer-button37" style="display:none;">Show Answer</button>
+        </div>
+        <br><br><br>
+    
+    <script>
+        // Data for flashcard quiz
+        const flashcards37 = [
+            {
+                question: "What is the AWS Certified Solutions Architect certification?",
+                answer: "It validates expertise in designing and deploying scalable, highly available, and fault-tolerant systems on AWS."
+            },
+            {
+                question: "What is the best practice for securing an S3 bucket?",
+                answer: "Use IAM policies and enable S3 Block Public Access."
+            },
+            {
+                question: "What is the purpose of IAM roles in AWS?",
+                answer: "IAM roles allow AWS services or applications to securely access other AWS resources."
+            },
+            {
+                question: "What is the difference between horizontal and vertical scaling?",
+                answer: "Horizontal scaling adds more instances, while vertical scaling increases the size of existing instances."
+            },
+            {
+                question: "What is an AWS VPC?",
+                answer: "A Virtual Private Cloud (VPC) is a logically isolated section of the AWS cloud where you can launch resources."
+            },
+            {
+                question: "What is the purpose of an Elastic Load Balancer (ELB)?",
+                answer: "An ELB distributes incoming application traffic across multiple targets, such as EC2 instances, to ensure high availability."
+            },
+            {
+                question: "What is AWS CloudFormation?",
+                answer: "It is a service that allows you to model and set up AWS resources using templates, enabling infrastructure as code."
+            },
+            {
+                question: "What is the difference between Amazon S3 and EBS?",
+                answer: "S3 is object storage for scalable data storage, while EBS is block storage for use with EC2 instances."
+            },
+            {
+                question: "What is the AWS Well-Architected Framework?",
+                answer: "It is a set of best practices for designing and operating reliable, secure, efficient, and cost-effective systems in the cloud."
+            },
+            {
+                question: "What is the purpose of AWS Lambda?",
+                answer: "AWS Lambda allows you to run code without provisioning or managing servers, enabling serverless computing."
+            },
+            {
+                question: "What is the difference between a public and private subnet in AWS?",
+                answer: "A public subnet has a route to the internet, while a private subnet does not."
+            },
+            {
+                question: "What is AWS RDS?",
+                answer: "Amazon Relational Database Service (RDS) is a managed service that makes it easy to set up, operate, and scale relational databases."
+            },
+            {
+                question: "What is the purpose of AWS CloudWatch?",
+                answer: "CloudWatch is a monitoring service for AWS resources and applications, providing metrics, logs, and alarms."
+            },
+            {
+                question: "What is the difference between AWS EC2 and ECS?",
+                answer: "EC2 provides virtual servers, while ECS is a container orchestration service for running Docker containers."
+            },
+            {
+                question: "What is the Shared Responsibility Model in AWS?",
+                answer: "AWS is responsible for the security of the cloud, while customers are responsible for security in the cloud."
+            }
+        ];
+    
+        let currentFlashcardIndex37 = -1;
+    
+        function showNextFlashcard37() {
+            currentFlashcardIndex37++;
+            if (currentFlashcardIndex37 >= flashcards37.length) {
+                currentFlashcardIndex37 = 0; // Restart the quiz if it reaches the end
+            }
+            const flashcard = flashcards37[currentFlashcardIndex37];
+            const flashcardQuestionDiv = document.getElementById("flashcard-question37");
+            const flashcardAnswerDiv = document.getElementById("flashcard-answer37");
+            const showAnswerButton = document.getElementById("show-answer-button37");
+            
+            flashcardQuestionDiv.innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+            flashcardAnswerDiv.style.display = "none";
+            showAnswerButton.style.display = "inline-block";
+        }
+    
+        function showFlashcardAnswer37() {
+            const flashcard = flashcards37[currentFlashcardIndex37];
+            const flashcardAnswerDiv = document.getElementById("flashcard-answer37");
+            flashcardAnswerDiv.innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+            flashcardAnswerDiv.style.display = "block";
+            document.getElementById("show-answer-button37").style.display = "none";
+        }
+    </script>
+    <br><br>
+    </div>
+
+    <!--End AWS SAA Flashcard-->
+    
+    <!--CISSP FlashCard-->
+<style>
+    .container_simulation38 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .concept_node38 {
+        display: inline-block;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+    .concept_node38:hover {
+        transform: scale(1.1);
+    }
+    .concept_connection {
+        margin: 5px;
+        font-size: 1.5em;
+    }
+    .concept_details38 {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid #007BFF;
+        border-radius: 10px;
+        background-color: #e0f7ff;
+        font-size: 1.5em;
+        text-align: left;
+    }
+    .flashcard38 {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #007BFF;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard38 button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1.5em;
+        border: none;
+        border-radius: 5px;
+        background-color: #007BFF;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .flashcard38 button:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<button class="collapsible">
+    <h2>Flashcard Quiz Game: CISSP - Certified Information Systems Security Professional</h2>
+</button>
+<div class="content" id="concept_map38">
+    <div class="certification">
+        <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">🔐 CISSP – Certified Information Systems Security Professional</a></h3>
+        <p>CISSP is a globally recognized certification for cybersecurity professionals, focusing on access control, authentication, authorization, and audit logging. Djamgatech’s AI quizzes help users internalize complex security concepts through targeted questions and concept maps. Earning this certification can lead to roles like Security Consultant or Chief Information Security Officer (CISO), significantly boosting earning potential and career growth.</p>
+      </div>
+    <br><br><br>
+    <!-- Flashcard Quiz Game Section -->
+    <div class="flashcard38" id="flashcard38">
+        <div id="flashcard-question38">Click 'Next' to start the flashcard quiz!</div>
+        <div id="flashcard-answer38" style="display:none; margin-top: 10px;"></div>
+        <button onclick="showNextFlashcard38()">Next Question</button>
+        <button onclick="showFlashcardAnswer38()" id="show-answer-button38" style="display:none;">Show Answer</button>
+    </div>
+    <br><br><br>
+
+<script>
+    // Data for flashcard quiz
+    const flashcards38 = [
+        {
+            question: "What is the primary goal of access control?",
+            answer: "Ensuring only authorized users can access resources."
+        },
+        {
+            question: "What is the difference between authentication and authorization?",
+            answer: "Authentication verifies identity, while authorization determines access rights."
+        },
+        {
+            question: "What is the principle of least privilege?",
+            answer: "Users should only have the minimum access necessary to perform their tasks."
+        },
+        {
+            question: "What is the purpose of encryption in information security?",
+            answer: "To protect data confidentiality by converting it into an unreadable format."
+        },
+        {
+            question: "What is a security policy?",
+            answer: "A formal document that outlines an organization's security goals and procedures."
+        },
+        {
+            question: "What is the difference between symmetric and asymmetric encryption?",
+            answer: "Symmetric encryption uses one key, while asymmetric encryption uses a public-private key pair."
+        },
+        {
+            question: "What is a firewall?",
+            answer: "A network security device that monitors and controls incoming and outgoing traffic based on security rules."
+        },
+        {
+            question: "What is the purpose of a VPN?",
+            answer: "To create a secure, encrypted connection over a less secure network, such as the internet."
+        },
+        {
+            question: "What is a vulnerability assessment?",
+            answer: "The process of identifying, quantifying, and prioritizing vulnerabilities in a system."
+        },
+        {
+            question: "What is the difference between a threat and a vulnerability?",
+            answer: "A threat is a potential danger, while a vulnerability is a weakness that can be exploited."
+        },
+        {
+            question: "What is the CIA triad in information security?",
+            answer: "Confidentiality, Integrity, and Availability—the three core principles of security."
+        },
+        {
+            question: "What is multi-factor authentication (MFA)?",
+            answer: "A security mechanism that requires two or more forms of verification to grant access."
+        },
+        {
+            question: "What is the purpose of a security audit?",
+            answer: "To evaluate an organization's adherence to security policies and identify areas for improvement."
+        },
+        {
+            question: "What is a zero-day exploit?",
+            answer: "A cyberattack that occurs on the same day a vulnerability is discovered, before a patch is available."
+        },
+        {
+            question: "What is the role of a Security Operations Center (SOC)?",
+            answer: "To monitor, detect, and respond to cybersecurity incidents in real-time."
+        }
+    ];
+
+    let currentFlashcardIndex38 = -1;
+
+    function showNextFlashcard38() {
+        currentFlashcardIndex38++;
+        if (currentFlashcardIndex38 >= flashcards38.length) {
+            currentFlashcardIndex38 = 0; // Restart the quiz if it reaches the end
+        }
+        const flashcard = flashcards38[currentFlashcardIndex38];
+        const flashcardQuestionDiv = document.getElementById("flashcard-question38");
+        const flashcardAnswerDiv = document.getElementById("flashcard-answer38");
+        const showAnswerButton = document.getElementById("show-answer-button38");
+        
+        flashcardQuestionDiv.innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        flashcardAnswerDiv.style.display = "none";
+        showAnswerButton.style.display = "inline-block";
+    }
+
+    function showFlashcardAnswer38() {
+        const flashcard = flashcards38[currentFlashcardIndex38];
+        const flashcardAnswerDiv = document.getElementById("flashcard-answer38");
+        flashcardAnswerDiv.innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        flashcardAnswerDiv.style.display = "block";
+        document.getElementById("show-answer-button38").style.display = "none";
+    }
+</script>
+<br><br>
+</div>
+
+<!--End CISSP Flashcard-->
+
+<!--CFA FlashCard-->
+<style>
+    .container_simulation39 {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .concept_node39 {
+        display: inline-block;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        cursor: pointer;
+        transition: transform 0.3s;
+    }
+    .concept_node39:hover {
+        transform: scale(1.1);
+    }
+    .concept_connection {
+        margin: 5px;
+        font-size: 1.5em;
+    }
+    .concept_details39 {
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid #007BFF;
+        border-radius: 10px;
+        background-color: #e0f7ff;
+        font-size: 1.5em;
+        text-align: left;
+    }
+    .flashcard39 {
+        margin: 20px auto;
+        padding: 20px;
+        width: 80%;
+        max-width: 500px;
+        border: 2px solid #007BFF;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .flashcard39 button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1.5em;
+        border: none;
+        border-radius: 5px;
+        background-color: #007BFF;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .flashcard39 button:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<button class="collapsible">
+    <h2>Flashcard Quiz Game: CFA - Chartered Financial Analyst</h2>
+</button>
+<div class="content" id="concept_map39">
+    <div class="certification">
+        <h3><a href="https://apps.apple.com/ca/app/djamgatech-cert-master-ai/id1560083470">📊 CFA – Chartered Financial Analyst</a></h3>
+        <p>The CFA certification is the gold standard for investment professionals, covering financial analysis, valuation models, and risk management. Djamgatech’s AI-driven quizzes provide practice on critical topics like Discounted Cash Flow (DCF) analysis, helping users master the material efficiently. Passing the CFA exams can lead to prestigious roles like Portfolio Manager or Financial Analyst, enhancing credibility in the finance industry.</p>
+      </div>
+    <br><br><br>
+    <!-- Flashcard Quiz Game Section -->
+    <div class="flashcard39" id="flashcard39">
+        <div id="flashcard-question39">Click 'Next' to start the flashcard quiz!</div>
+        <div id="flashcard-answer39" style="display:none; margin-top: 10px;"></div>
+        <button onclick="showNextFlashcard39()">Next Question</button>
+        <button onclick="showFlashcardAnswer39()" id="show-answer-button39" style="display:none;">Show Answer</button>
+    </div>
+    <br><br><br>
+
+<script>
+    // Data for flashcard quiz
+    const flashcards39 = [
+        {
+            question: "What is the CFA certification?",
+            answer: "The CFA (Chartered Financial Analyst) certification is a globally recognized credential for investment professionals, focusing on financial analysis, portfolio management, and ethical standards."
+        },
+        {
+            question: "What is the Discounted Cash Flow (DCF) method?",
+            answer: "A valuation method used to estimate the value of an investment based on its expected future cash flows, discounted to their present value."
+        },
+        {
+            question: "What is the difference between equity and debt financing?",
+            answer: "Equity financing involves raising capital by selling shares, while debt financing involves borrowing funds that must be repaid with interest."
+        },
+        {
+            question: "What is the Capital Asset Pricing Model (CAPM)?",
+            answer: "A model that describes the relationship between systematic risk and expected return for assets, used to price risky securities."
+        },
+        {
+            question: "What is the purpose of financial statement analysis?",
+            answer: "To evaluate a company's financial performance, position, and cash flows to make informed investment decisions."
+        },
+        {
+            question: "What is the difference between a balance sheet and an income statement?",
+            answer: "A balance sheet shows a company's financial position at a specific point in time, while an income statement shows its financial performance over a period."
+        },
+        {
+            question: "What is the Efficient Market Hypothesis (EMH)?",
+            answer: "A theory that states asset prices fully reflect all available information, making it impossible to consistently achieve higher returns without taking on additional risk."
+        },
+        {
+            question: "What is the difference between systematic and unsystematic risk?",
+            answer: "Systematic risk affects the entire market and cannot be diversified away, while unsystematic risk is specific to a company or industry and can be reduced through diversification."
+        },
+        {
+            question: "What is the purpose of portfolio diversification?",
+            answer: "To reduce risk by investing in a variety of assets that are not perfectly correlated."
+        },
+        {
+            question: "What is the Sharpe ratio?",
+            answer: "A measure of risk-adjusted return, calculated as the excess return per unit of risk (standard deviation)."
+        },
+        {
+            question: "What is the difference between active and passive investment management?",
+            answer: "Active management involves selecting investments to outperform the market, while passive management involves tracking a market index."
+        },
+        {
+            question: "What is the time value of money?",
+            answer: "The concept that money available today is worth more than the same amount in the future due to its earning potential."
+        },
+        {
+            question: "What is the difference between a stock and a bond?",
+            answer: "A stock represents ownership in a company, while a bond is a loan made to a company or government that pays interest."
+        },
+        {
+            question: "What is the purpose of a prospectus?",
+            answer: "A legal document that provides details about an investment offering to potential investors."
+        },
+        {
+            question: "What is the difference between a mutual fund and an ETF?",
+            answer: "A mutual fund is a pooled investment vehicle priced at the end of the trading day, while an ETF trades like a stock on an exchange throughout the day."
+        }
+    ];
+
+    let currentFlashcardIndex39 = -1;
+
+    function showNextFlashcard39() {
+        currentFlashcardIndex39++;
+        if (currentFlashcardIndex39 >= flashcards39.length) {
+            currentFlashcardIndex39 = 0; // Restart the quiz if it reaches the end
+        }
+        const flashcard = flashcards39[currentFlashcardIndex39];
+        const flashcardQuestionDiv = document.getElementById("flashcard-question39");
+        const flashcardAnswerDiv = document.getElementById("flashcard-answer39");
+        const showAnswerButton = document.getElementById("show-answer-button39");
+        
+        flashcardQuestionDiv.innerHTML = `<strong>Question:</strong> ${flashcard.question}`;
+        flashcardAnswerDiv.style.display = "none";
+        showAnswerButton.style.display = "inline-block";
+    }
+
+    function showFlashcardAnswer39() {
+        const flashcard = flashcards39[currentFlashcardIndex39];
+        const flashcardAnswerDiv = document.getElementById("flashcard-answer39");
+        flashcardAnswerDiv.innerHTML = `<strong>Answer:</strong> ${flashcard.answer}`;
+        flashcardAnswerDiv.style.display = "block";
+        document.getElementById("show-answer-button39").style.display = "none";
+    }
+</script>
+<br><br>
+</div>
+
+<!--End CFA Flashcard-->
+
+
+
+</div>
+
+
+    <section id="footer" class="box">
+        <h1>AI Daily News Rundown</h1>
+        <div align="center">
+            <iframe id="embedPlayer" src="https://embed.podcasts.apple.com/us/podcast/ai-unraveled-latest-ai-news-trends-gpt-gemini-generative/id1684415169?itsct=podcast_box_player&amp;itscg=30200&amp;at=1001l3a6m&amp;ls=1&amp;theme=auto" height="450px" frameborder="0" sandbox="allow-forms  allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *; clipboard-write" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; transform: translateZ(0px); animation: 2s ease 0s 6 normal none running loading-indicator; background-color: rgb(228, 228, 228);"></iframe>
+          </div>
+    
+   
+    <script src="script.js"></script>
+    <script src="collapsible.js"></script>
+    <script async type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+<zapier-interfaces-chatbot-embed is-popup='true' chatbot-id='cm7o81b3b001gr68kns3q3jjo'></zapier-interfaces-chatbot-embed>
+   </body>
+</html>
